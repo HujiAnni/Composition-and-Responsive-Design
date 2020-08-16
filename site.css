@@ -1,0 +1,219 @@
+body {
+  font-family: sans-serif;
+  background-color: #212426;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 0 5px 10px black;
+  background-image: url("../images/blurred-sprout.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(10%);
+  padding: 0 0 5px 0;
+}
+
+header img {
+  margin-left: 40px;
+}
+
+header span {
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  font-variant: all-small-caps;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0 5px 10px;
+}
+
+nav li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 36px;
+  padding-top: 5px;
+}
+
+.top a {
+  width: 300px;
+  text-decoration: none;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+  letter-spacing: 2px;
+  color: white;
+  margin: 10px 20px;
+  padding: 0 0 7px 0;
+}
+
+.top a:hover {
+  border-bottom: 1px solid white;
+}
+
+.top img {
+  width: 90px;
+}
+
+main {
+  background-color: white;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 35px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 5px #cc9900, 0 0 5px #cc9900;
+  font-size: 42px;
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+  color: white;
+  flex-basis: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+  color: #cc9900;
+}
+
+h3 {
+  text-align: center;
+  font-variant: small-caps;
+  color: #008484;
+}
+
+li {
+  list-style-type: square;
+}
+
+figcaption {
+  font-variant: small-caps;
+  color: #008484;
+}
+
+#featured_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.featured_link {
+  margin: 0 15px;
+}
+
+.featured_link figure, .featured_link p {
+  margin: 0;
+  width: 200px;
+}
+
+.featured_link img {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.featured_link figcaption {
+  font-variant: all-small-caps;
+  letter-spacing: 2px;
+  color: #008484;
+  margin: 0 0 10px 0;
+}
+
+.featured_link a {
+  text-decoration: none;
+}
+
+
+.news-content {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.news-main {
+  margin: 0 20px 0 30px;
+}
+
+.news figure {
+  margin: 0;
+  padding: 0;
+}
+
+.news figure img {
+  width: 100%;
+}
+
+aside {
+  border-style: solid;
+  padding: 5px 15px;
+  margin: 0 30px 50px;
+}
+
+.gallery {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+}
+
+#collab {
+  background-color: #dbd3cb;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #008484;
+}
+
+.float_right {
+  float: right;
+  margin-top: 0;
+}
+
+.float_left {
+  float: left;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.float_right img {
+  width: 220px;
+}
+
+.float_left img {
+  width: 220px;
+}
+
+footer {
+  clear: left;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+  color: #706c65;
+}
