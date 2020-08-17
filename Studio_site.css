@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham/GOTHMLIG.TTF")
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../fonts/gotham/GOTHMBOK.TTF")
+}
+
+@font-face {
+  font-family: "Gotham Med";
+  src: url("../fonts/gotham/GOTHMMED.TTF")
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Gotham", sans-serif;
+  background-color: #f7f7f6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px 30px 20px 30px;
+  background-color: white;
+}
+
+nav {
+  background-color: #72aabe;
+  margin-bottom: 0;
+  padding: 10px 0;
+
+}
+
+nav img {
+  width: 150px;
+}
+
+nav ul {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: normal;
+  font-variant: all-small-caps;
+  display:flex;
+  flex-direction:row;
+  flex:15%;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+  padding-right: 2%;
+  padding-bottom: 0px;
+  padding-left: 2%;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.current_page a {
+  color: black;
+  pointer-events: none;
+}
+
+a {
+  color: #3683d2;
+  font-family: "Gotham Med", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 400px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+}
+
+h1 {
+  color: #024258;
+  font-family: "Gotham Med", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #50a2c0;
+  font-family: "Gotham Book", sans-serif;
+}
+
+h1, h2 {
+  font-variant: small-caps;
+}
+
+hr {
+  color: #7c7b86;
+  margin: 15px auto;
+}
+
+figcaption {
+  font-variant: small-caps;
+  color: #424144;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  margin: 0 auto 10px auto;
+}
+
+.slogan {
+  color: #50a2c0;
+  font-size: 18px;
+  font-style: italic;
+  font-variant: all-small-caps;
+}
+
+.shortcut, .shortcut img {
+  width: 180px;
+  height: 125px;
+}
+
+.shortcut {
+  position: relative;
+  margin: 10px;
+}
+
+.shortcut a:hover {
+  opacity: 0.5;
+}
+
+.shortcut span {
+  position: absolute;
+  right: 0; bottom: 0; left: 0;
+  height: 25%;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  font-size: 28px;
+  color: #50a2c0;
+  background-color: rgba(255,255,255,0.85);
+}
+
+ul {
+  list-style: square;
+  font-variant: small-caps;
+  color: #424144;
+
+}
+
+.logo {
+  display:flex;
+  flex-direction:row;
+  flex: 1;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.faq {
+  margin: 15px 0;
+  padding: 10px;
+}
+
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #72aabe;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.session {
+  display:flex;
+  flex-direction:row;
+}
+
+.intro {
+   border-style: dashed;
+   border-color:grey;
+   align-items:center;
+   margin: 15px 0;
+   padding: 10px;
+}
+
+.flexbox {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  align-content: center;
+}
+
+.shortcut {
+   align-items:center;
+   margin:22px;
+}
+
+.servicespart {
+  display:flex;
+  flex-direction:row;
+}
+
+.published {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.aboutinfo {
+  display:flex;
+  flex-direction:row;
+}
+
+.aboutimg {
+  margin:10px;
+}
+
+.abouttext {
+  margin:30px;
+  align-content:center;
+}
